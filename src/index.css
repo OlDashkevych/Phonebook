@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  background-color: rgb(200, 218, 216);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  appearance: none;
+}
+input:invalid {
+  border: 1px solid #466dd8;
+}
+input:valid {
+  border: 1px solid #1c920d;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
