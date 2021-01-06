@@ -16,7 +16,7 @@
     "@types/react-router-dom": "^5.1.5",
     "@types/react-transition-group": "^4.4.0",
     "@types/uuid": "^8.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "clsx": "^1.0.4",
     "emotion": "^10.0.23",
     "install": "^0.13.0",
